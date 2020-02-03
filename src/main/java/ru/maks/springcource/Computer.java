@@ -11,7 +11,8 @@ public class Computer {
     }
 
     public String getSong() {
-        return musicPlayer.playMusic(MusicType.CLASSIC);
+        return "ff";
+       // return musicPlayer.playMusic(MusicType.CLASSIC);
     }
 
 

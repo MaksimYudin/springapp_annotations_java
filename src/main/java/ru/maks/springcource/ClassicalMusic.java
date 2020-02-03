@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ClassicalMusic implements Music {
 
-    private List<String> musickList;
+    private List<String> musicList;
 
     @Override
     public String getSong() {
@@ -16,6 +16,10 @@ public class ClassicalMusic implements Music {
     }
 
     public List<String> getSongList() {
-        return musickList;
+        return musicList;
+    }
+
+    public void setMusicList(List<String> musicList) {
+        this.musicList = musicList;
     }
 }
